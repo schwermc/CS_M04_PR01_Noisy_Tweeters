@@ -634,7 +634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4945256107456927241, guid: 88d36870eb11e0749b4695f8ecab0b27, type: 3}
       propertyPath: orthographic size
-      value: 6.9065228
+      value: 6.9064684
       objectReference: {fileID: 0}
     - target: {fileID: 7114035696966771681, guid: 88d36870eb11e0749b4695f8ecab0b27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1704,7 +1704,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1118575257329067251, guid: 36cb0a389d8a20144b3a467a89f45202, type: 3}
       propertyPath: _nextLevelName
-      value: Level1
+      value: WinScreen
       objectReference: {fileID: 0}
     - target: {fileID: 2055673604735278531, guid: 36cb0a389d8a20144b3a467a89f45202, type: 3}
       propertyPath: m_Name
@@ -1955,6 +1955,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Music
       objectReference: {fileID: 0}
+    - target: {fileID: 2297570385990713598, guid: aa61786863993da418249a2e039b998f, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 9abe79b34e0e4cd439fd0fb2ef6b49e1, type: 3}
+    - target: {fileID: 2297570385990713598, guid: aa61786863993da418249a2e039b998f, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9abe79b34e0e4cd439fd0fb2ef6b49e1, type: 3}
     - target: {fileID: 5829397839592616042, guid: aa61786863993da418249a2e039b998f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2005,13 +2013,13 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 665432067}
+  - {fileID: 2086681857}
+  - {fileID: 988979639}
+  - {fileID: 958202353}
   - {fileID: 498118238}
   - {fileID: 1317933542}
   - {fileID: 922017996}
   - {fileID: 1788251972}
-  - {fileID: 2086681857}
-  - {fileID: 988979639}
-  - {fileID: 958202353}
   - {fileID: 1954496348}
   - {fileID: 873868080}
   - {fileID: 428372121}

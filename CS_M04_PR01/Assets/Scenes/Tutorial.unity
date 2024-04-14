@@ -673,6 +673,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Music
       objectReference: {fileID: 0}
+    - target: {fileID: 2297570385990713598, guid: aa61786863993da418249a2e039b998f, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 128e89676d913c7479969929da2d745f, type: 3}
+    - target: {fileID: 2297570385990713598, guid: aa61786863993da418249a2e039b998f, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 128e89676d913c7479969929da2d745f, type: 3}
     - target: {fileID: 5829397839592616042, guid: aa61786863993da418249a2e039b998f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -756,7 +764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4945256107456927241, guid: 88d36870eb11e0749b4695f8ecab0b27, type: 3}
       propertyPath: orthographic size
-      value: 5.621588
+      value: 5.621544
       objectReference: {fileID: 0}
     - target: {fileID: 7114035696966771681, guid: 88d36870eb11e0749b4695f8ecab0b27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1109,6 +1117,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 3913515828024173403}
   - {fileID: 9108618515422971000}
+  - {fileID: 2715603671189291300}
+  - {fileID: 5153436382383494720}
+  - {fileID: 6263767100499718770}
   - {fileID: 1317933542}
   - {fileID: 922017996}
   - {fileID: 1749471350389856421}
@@ -1117,6 +1128,3 @@ SceneRoots:
   - {fileID: 2144185541}
   - {fileID: 692639974784628640}
   - {fileID: 7012496239471678829}
-  - {fileID: 2715603671189291300}
-  - {fileID: 5153436382383494720}
-  - {fileID: 6263767100499718770}

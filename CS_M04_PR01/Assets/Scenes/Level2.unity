@@ -1754,6 +1754,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Music
       objectReference: {fileID: 0}
+    - target: {fileID: 2297570385990713598, guid: aa61786863993da418249a2e039b998f, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 385239c0be8d6104f87f672dfa62c65c, type: 3}
+    - target: {fileID: 2297570385990713598, guid: aa61786863993da418249a2e039b998f, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 385239c0be8d6104f87f672dfa62c65c, type: 3}
     - target: {fileID: 5829397839592616042, guid: aa61786863993da418249a2e039b998f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1862,6 +1870,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 665432067}
   - {fileID: 498118238}
+  - {fileID: 2086681857}
+  - {fileID: 988979639}
+  - {fileID: 958202353}
   - {fileID: 1317933542}
   - {fileID: 922017996}
   - {fileID: 2121296785}
@@ -1882,6 +1893,3 @@ SceneRoots:
   - {fileID: 1586440279}
   - {fileID: 970412129}
   - {fileID: 1788251972}
-  - {fileID: 2086681857}
-  - {fileID: 988979639}
-  - {fileID: 958202353}

@@ -20,6 +20,10 @@ public class Monster : MonoBehaviour
     void OnMouseDown()
     {
         GetComponent<AudioSource>().Play();
+        if (SleaseMode.mode)
+        {
+            StartCoroutine(Die());
+        }
     }
 
     IEnumerator Start()

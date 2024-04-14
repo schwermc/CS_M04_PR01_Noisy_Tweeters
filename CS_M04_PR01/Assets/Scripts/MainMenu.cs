@@ -23,4 +23,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(_menu);
     }
+
+    public void SleaseModeActive()
+    {
+        SleaseMode.sleaseMode();
+    }
 }

@@ -16,7 +16,7 @@ public class Crate : MonoBehaviour
         }
         else
         {
-            //Debug.Log("Collision was too slow to play a sound: " + collision.relativeVelocity.magnitude);
+            Debug.Log("Collision was too slow to play a sound: " + collision.relativeVelocity.magnitude);
         }
     }
 }

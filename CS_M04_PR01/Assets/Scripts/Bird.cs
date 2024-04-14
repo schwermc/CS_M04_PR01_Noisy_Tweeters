@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Bird : MonoBehaviour
@@ -72,7 +73,10 @@ public class Bird : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (_rigidbody2D.position.y < -5)
+        {
+            StartCoroutine(ResetAfterDelay());
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
